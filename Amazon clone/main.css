@@ -1,0 +1,76 @@
+.html{
+  scroll-behavior: smooth;
+}
+
+.main{
+  display: grid;
+ grid-template-columns: 300px 300px 300px 300px 1fr;
+  justify-content: space-between;
+  row-gap: 30px;
+  padding-top: 80px;  
+}
+
+.submain{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgb(223, 218, 218);
+ 
+}
+
+
+.pic{
+  height: 250px;
+  width: 250px;
+}
+
+
+.info{
+  margin-bottom: 3px;
+}
+
+
+.rating{
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.ratings{
+  width: 100px;
+  margin-right: 5px;
+}
+
+
+.number{
+  color: blue;
+}
+
+
+.pic , .info , .price , .rating , .itemcount , .addtocart, .buttons{
+  margin-bottom: 8px;
+  margin-left: 30px;
+}
+
+
+.itemcount{
+  margin-bottom: 9px;
+}
+
+.selector{
+  border-radius: 5px;
+  width: 30px;
+  
+}
+
+.empty{
+  height: 30px;
+}
+
+.addtocart{
+  width: 250px;
+  padding: 10px;
+  background-color: yellow;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}

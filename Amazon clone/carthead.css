@@ -1,0 +1,33 @@
+.topsection{
+  position: fixed;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+ 
+  background-color: white;
+
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -8px;
+
+  
+}
+
+.pic{
+  width: 140px;
+}
+
+.pic2{
+width: 40px;
+}
+.middle{
+font-size: xx-large;
+}
+.items{
+  color: blue;
+}
+

@@ -1,0 +1,69 @@
+.head{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px; 
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-direction: start;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.pic1{
+  width: 130px;
+}
+.logo{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.searchsection{
+display: flex;
+align-items: center;
+}
+
+.searchbar{
+  width: 600px;
+  height: 30px;
+ padding-left: 7px;
+ border: none;
+}
+ 
+.button1{
+margin-left: -1px;
+background-color: orangered;
+padding: 3px 7px;
+border: none;
+
+}
+
+
+.searchicon{
+  width: 22px;
+
+}
+
+.returns{
+  color: white;
+}
+.cartsection{
+  position: relative;
+}
+
+.cart{
+  width: 90px;
+  background-color: white;
+}
+.number1{
+  position: absolute;
+  
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 50%;
+  top:16px;
+  right:30px;
+}
+

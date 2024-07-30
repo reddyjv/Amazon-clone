@@ -1,0 +1,145 @@
+.html{
+  scroll-behavior: smooth;
+}
+.main{
+display:flex;
+margin-left: 17px;
+padding-top: 200px;
+z-index: 0;
+  
+}
+.submain{
+  box-shadow: 0 0 1px 1px rgb(225, 221, 221);
+  border: 1px solid rgb(230, 224, 224);
+  padding: 18px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+ 
+}
+
+.date{
+  color: green;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 15px;
+}
+.cart{
+  display: flex;
+}
+.cartimage{
+  margin-right: 20px;
+}
+.image{
+  width: 250px;
+}
+.info{
+  font-weight: bolder;
+  font-size: large;
+}
+.buttons{
+  color: blue;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+}
+.price{
+  color: rgb(122, 5, 5);
+  font-weight: bolder;
+}
+.option{
+  margin-bottom: 8px;
+}
+.details{
+  margin-right: 50px;
+}
+.radiobutton{
+  margin-right: 5px;
+  z-index: 0;
+}
+.radio{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.shipping{
+  color: green;
+  font-weight: bolder;
+}
+.dot{
+  accent-color: blue;
+ transform: scale(1.4);
+ z-index: 20;
+ position: relative;
+  
+}
+
+.ship{
+  color: rgb(95, 91, 91);
+}
+
+
+.rightside{
+  box-shadow: 0 0 1px 1px rgb(225, 221, 221);
+  border: 1px solid rgb(230, 224, 224);
+  padding: 20px;
+  height: 400px;
+}
+.order{
+  border-bottom: 1px solid rgb(230, 224, 224);
+  margin-bottom: 10px;
+}
+.summary{
+  margin-bottom: 20px;
+  font-size:xx-large;
+}
+
+.suborder{
+  display: flex;
+  margin-bottom: 10px;
+  color: rgb(6, 6, 77);
+  font-weight: bold;
+}
+.infosection{
+  margin-right: 260px;
+}
+.info{
+  margin-bottom: 18px;
+}
+.prices{
+  margin-bottom: 18px;
+}
+.total{
+  color: rgba(215, 9, 9, 0.975);
+  font-size: x-large;
+  font-weight: bold;
+  margin-right: 301px;
+}
+.subtotalsection{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.totalprice{
+  color: rgba(215, 9, 9, 0.975);
+  font-weight: bold;
+  font-size: larger;
+}
+.paypal{
+  color: rgb(6, 6, 77);
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 35px;
+
+}
+.checkbox{
+  transform: scale(1.5);
+  accent-color: blue;
+}
+.orderbutton{
+  background-color: rgb(246, 246, 35);
+  border: none;
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+}
